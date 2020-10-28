@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="scrollFrame.FramePage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            
+            <Frame BackgroundColor="Aqua" BorderColor="Black" VerticalOptions="CenterAndExpand" 
+                   Margin="20,0,20,0" CornerRadius="10" HasShadow="True" >
+                <StackLayout>
+                    <Label Text="Hola soy un label" FontSize="Large" FontAttributes="Bold"/>
+                    <BoxView Color="Red" HeightRequest="2" HorizontalOptions="Fill"/>
+                    <Label Text="Frames can wrap more complex layouts to create more complex UI components, such as this card!"/>
+                </StackLayout>
+            </Frame>
+            <Frame Margin="10" BorderColor="Black" CornerRadius="50" WidthRequest="60" HeightRequest="60"
+                   IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
+                <Image Source="xamarin.png" Margin="-20" WidthRequest="100" HeightRequest="100"></Image>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

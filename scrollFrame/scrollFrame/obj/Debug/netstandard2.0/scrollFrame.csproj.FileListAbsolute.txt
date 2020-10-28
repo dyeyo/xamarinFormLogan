@@ -1,0 +1,16 @@
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\bin\Debug\netstandard2.0\scrollFrame.deps.json
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\bin\Debug\netstandard2.0\scrollFrame.dll
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\bin\Debug\netstandard2.0\ref\scrollFrame.dll
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\bin\Debug\netstandard2.0\scrollFrame.pdb
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\FormularioPage.xaml.g.cs
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\FramePage.xaml.g.cs
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\scrollFrame.AssemblyInfoInputs.cache
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\scrollFrame.AssemblyInfo.cs
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\scrollFrame.dll
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\ref\scrollFrame.dll
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\scrollFrame.pdb
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\scrollFrame.csprojAssemblyReference.cache
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\scrollFrame.csproj.CoreCompileInputs.cache
+C:\Users\dyego\source\repos\scrollFrame\scrollFrame\scrollFrame\obj\Debug\netstandard2.0\XamlC.stamp

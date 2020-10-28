@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="scrollFrame.FormularioPage" BackgroundColor="#2b2e42">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Label Text="CÁRGALO" FontSize="Title" TextColor="#8e9aad"
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="Nombre"  x:Name="nombre" PlaceholderColor="#8e9aad" BackgroundColor="Transparent"/>
+            <Picker Title="Tipo de Identificación" x:Name="tipoIdentificacion" TitleColor="#8e9aad" TextColor="#8e9aad" BackgroundColor="Transparent">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Cédula de ciudadanía</x:String>
+                        <x:String>Cédula de extranjería</x:String>
+                        <x:String>Pasaporte</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Entry Placeholder="No. Identificación" x:Name="identificacion" Keyboard="Numeric" PlaceholderColor="#8e9aad" BackgroundColor="Transparent"/>
+            <Entry Placeholder="Teléfono" Keyboard="Numeric" x:Name="telefono" PlaceholderColor="#8e9aad" BackgroundColor="Transparent"/>
+            <StackLayout Orientation="Horizontal">
+                <CheckBox x:Name="chkTerminosyCondiciones"/>
+                <Label Text="Terminos y Condiciones"/>
+            </StackLayout>
+            <Button x:Name="btnGuardar" Text="Guardar" CornerRadius="20" BackgroundColor="#66cc33"
+                    TextColor="White" Clicked="btnGuardar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

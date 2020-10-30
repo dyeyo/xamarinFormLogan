@@ -10,7 +10,7 @@ namespace scrollFrame
         {
             InitializeComponent();
 
-            MainPage = new FormularioPage();
+            MainPage = new NavigationPage(new MenuPage());
         }
 
         protected override void OnStart()

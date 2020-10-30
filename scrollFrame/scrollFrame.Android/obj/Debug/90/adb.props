@@ -1,2 +1,2 @@
-AdbTarget=-s ESU4C18C21005117
+AdbTarget=-s emulator-5554
 AdbOptions=

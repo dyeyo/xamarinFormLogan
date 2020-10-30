@@ -19,5 +19,10 @@ namespace scrollFrame.Services
         {
             personaDAO.create(personaModel);
         }
+
+        public List<PersonaModel> listPerson()
+        {
+            return personaDAO.list();
+        }
     }
 }

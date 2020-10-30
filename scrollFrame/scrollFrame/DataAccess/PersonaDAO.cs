@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Linq;
 
 namespace scrollFrame.DataAccess
 {
@@ -52,6 +53,11 @@ namespace scrollFrame.DataAccess
         public void create(PersonaModel personaModel) 
         {
             sqlconnection.Insert(personaModel);
+        }
+
+        public List<PersonaModel> list()
+        {
+            return (from t in sqlconnection.Table<PersonaModel>() select t).ToList();
         }
     } 
 }
